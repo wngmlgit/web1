@@ -7,12 +7,6 @@
         body{
             margin:0;
         }
-#active{
-    color:red;
-}
-.saw{
-    color:gray;
-}
 a {
     color:black;
     text-decoration: none;
@@ -30,23 +24,37 @@ ol{
     margin:0;
     padding: 20px;
 }
+#grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+#grid ol{
+    padding-left: 40px;
+}
+#grid #article{
+    padding: 15px;
+}
     </style>
 </head>
 <body>
 <h1><a href="index.html">KAKAO FRIENDS!</a></h1>
+<div id="grid">
 <ol>
-    <li><a href="1.html"class="saw">라이언&무지와 콘</a></li>
-    <li><a href="2.html"class="saw" id="active">어피치</a></li>
+    <li><a href="1.html">라이언&무지와 콘</a></li>
+    <li><a href="2.html">어피치</a></li>
     <li><a href="3.html">튜브</a></li>
 </ol>
+<div id="article">
 <h2>어피치</h2>
 <p>
     유전자 변이로 자웅동주가 된 것을 알고
     복숭아 나무에서 탈출한 악동 복숭아 어피치!
     섹시한 뒷태로 사람들을 매혹시키며,
     성격이 매우 급하고 과격합니다.
-<img src="어피치.jpg" width="100%">
+<img src="어피치.jpg" width="70%">
 </P>
+</div>
+</div>
 <p>
     <div id="lv-container" data-id="city" data-uid="MTAyMC81MjUxOS8yODk5Nw==">
         <script type="text/javascript">
